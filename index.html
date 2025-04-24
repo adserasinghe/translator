@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Translator</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="./icon8-translator-60.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Translator</h1>
+        <div class="input-group">
+            <label for="sourceText">Source Text:</label>
+            <textarea id="sourceText" placeholder="Enter text to translate"></textarea>
+            <label for="sourceLanguage">Source Language:</label>
+            <select id="sourceLanguage">
+                <option value="en">English</option>
+                <option value="si">Sinhala</option>
+                </select>
+            <label for="targetLanguage">Target Language:</label>
+            <select id="targetLanguage">
+                <option value="si">Sinhala</option>
+                <option value="en">English</option>
+                </select>
+        </div>
+        <button id="translateButton">Translate</button>
+        <div class="output-group">
+            <label for="translatedText">Translated Text:</label>
+            <textarea id="translatedText" placeholder="Translation will appear here" readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
