@@ -1,6 +1,6 @@
-const key = 'YOUR_API_KEY'; // Replace with your Azure API key
-const endpoint = 'YOUR_ENDPOINT'; // Replace with your Azure endpoint
-const location = 'YOUR_LOCATION'; // Replace with your Azure region
+const key = '1or4aL8z4Gu7ePTwwAblu0Yz8nujIQ1geWVLnz31p7Mx5HkYIt9QJQQJ99BDACqBBLyXJ3w3AAAbACOGVT2F'; // Replace with your Azure API key
+const endpoint = 'https://api.cognitive.microsofttranslator.com/'; // Replace with your Azure endpoint
+const location = 'southeastasia'; // Replace with your Azure region
 
 const sourceTextElement = document.getElementById('sourceText');
 const targetLanguageElement = document.getElementById('targetLanguage');
